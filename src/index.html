@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Google DRRrrRrvrr!</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="vendors.js"></script>
+    <script src="app.js"></script>
+    <script src="https://apis.google.com/js/client.js?onload=init"></script>
+</head>
+<body ng-app="gzapi" class="container" ng-cloak=>
+<h1>Google DRRrrRrvrr!</h1>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+                gzapi
+            </a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a ng-href="#/list">List</a></li>
+                <li><a ng-href="#/document">Document</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<div ng-view></div>
+
+</body>
+</html>

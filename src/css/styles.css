@@ -1,0 +1,19 @@
+#name {
+  font-weight: 100;
+}
+
+a.unlink {
+  color: inherit;
+}
+a.unlink:hover {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+.active-post {
+  background-color: green;
+  color: white;
+}
+.display {
+  position: fixed;
+}

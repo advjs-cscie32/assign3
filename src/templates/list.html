@@ -1,0 +1,12 @@
+<div class="well col-md-12" ng-controller="ListController as lc">
+    <gauth></gauth>
+
+    <ul>
+        <li ng-repeat="(index, file) in lc.files track by $index">
+            <a class="unlink" ng-click="lc.display(file.id)">
+                {{file.id}} - {{file.title}}
+            </a>
+        </li>
+    </ul>
+
+</div>
