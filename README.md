@@ -21,7 +21,6 @@ to the document tab. The contents of the file selected is displayed 'zombified' 
 * in order to just run tests run karma start
 
 
-
 # Some Implementation details
 * List page or tab is backed by the ListController
 
